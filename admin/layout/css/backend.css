@@ -1,0 +1,112 @@
+body {background-color: #F4F4F4;font-size: 16px;font-family: calibri;}
+/* h1{color: #666;font-weight: bold;margin: 30px 0 50px 60px;} */
+h1{color: #666;font-weight: bold;margin: 45px 0;text-align: center;}
+.iPR {position: relative;right: 3px}
+.m-b{margin-bottom: 10px;}
+.m-t{margin-top: 10px;}
+
+.selectboxit-container span, .selectboxit-container .selectboxit-options a
+{height: 48px;line-height: 47px;display: block;font-size: 17px;}
+
+.login {width: 300px;margin: 100px auto;}
+.login h1 {margin-bottom: 15px;}
+.login i {margin-bottom: 25px;margin-top: 10px;}
+.login input {margin-bottom: 10px;}
+.login .form-control {background-color: #EFEFEF;}
+.login .btn {background-color: #008dde;}
+
+/* Navbar */
+
+.navbar {border-radius: 0;margin-bottom: 0;}
+.nav > li > a, .navbar-brand {padding: 10px 12px}
+
+/* .navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.menues {position: relative;right: 25px;} */
+.menues i {color: #269abc;margin-right: 15px;font-size: 28px;}
+.fa-store{color: #4cae4c !important;}
+.dropdown-menu {background-color: #3498db;;min-width: 180px;padding: 0;font-size: 1em;border: none;border-radius: 0;}
+.dropdown-menu > li > a {color: #FFF;padding: 8px 15px;}
+.navbar .fa-cog{font-size: 28px;}
+
+
+/* Dashboard Page */
+
+.home-stats .stat {padding: 20px;font-size: 18px;font-weight: bolder;letter-spacing: 1px;color:#fff;
+                   border-radius: 10px;position: relative;overflow: hidden;}
+.home-stats .stat i {position: absolute;font-size: 80px;top: 45px;left: 15px;}
+.home-stats .stat .info {float: right;}
+.home-stats .stat a {color: #82ccdd;}
+.home-stats .stat a:hover {text-decoration: none;}
+.home-stats .st-mem{background-color: #444;}
+.home-stats .st-pen{background-color: #444;}
+.home-stats .st-itm{background-color: #444;}
+.home-stats .st-com{background-color: #444;}
+.home-stats .stat span {display: block;font-size: 60px;}
+.latest {margin-top: 30px;font-weight: bold;}
+.latest .panel-heading {font-size: 18px;}
+.latest .itog {cursor: pointer;}
+.latestMem {margin-bottom: 0;}
+.latestMem li {padding: 10px;overflow: hidden;}
+.latestMem li:nth-child(odd) {background-color: #caedf1;}
+.latestMem .btn-success,.latestMem .btn-info {padding: 2px 6px;}
+.latestMem .btn-info {margin-right: 5px;}
+.latest .comment-box {margin: 5px 0 10px;}
+.latest .comment-box .mname, .latest .comment-box .mcom {float: left;}
+.latest .comment-box .mname {width: 80px;text-align: center;margin-right: 20px;position: relative;top: 10px;}
+.latest .comment-box .mcom {width: calc(100% - 100px);background-color: #eee;padding: 10px;position: relative;font-weight: normal;border-radius: 10px;}
+.latest .comment-box .mcom:before {content: "";display: block;position: absolute;left: -23px;top: 9px;width: 0;height: 0;
+                                    border-style: solid;border-color: transparent #eee transparent transparent;border-width: 12px;}
+
+
+/* Members page */
+
+.show-pass{position: absolute;top: 11px;right: -30px;font-size: 1.7em;color: #666;cursor: pointer;}
+.show-pass:active{color: #000;}
+.main-table {box-shadow: 0 3px 10px #ccc;}
+.main-table img {width: 44px;height: 44px;}
+.main-table td {background-color: #fff;vertical-align: middle !important;max-width: 215px;}
+.main-table tr:first-child td {background-color: #333;color: #FFF;}
+.main-table .btn {padding: 3px 10px;}
+.up-img{position: relative;min-height: 46px;}
+.up-img span {font-weight: bold;min-height: 46px;}
+.up-img input {position: absolute;top: 0;left: 0;opacity: 0;cursor: pointer}
+
+select {
+    font-family: 'FontAwesome', 'Second Font name'
+  }
+  
+
+
+
+/* Categories page */
+
+.categories .panel-heading {font-weight: bold;}
+.categories .panel-body {padding: 0;}
+.categories .option {background-color: #444;color: #fff;font-weight: bold;padding: 4px;border-radius: 6px;position: relative;top: -4px;margin-left: 5px;}
+.categories .option a {color: #AAA;text-decoration: none;}
+.categories .option span {color: #AAA;cursor: pointer;}
+.categories .option .active {color: #82ccdd;font-weight: bold;}
+.categories hr {margin-top: 0px;margin-bottom: 0px;}
+.categories .cat {padding: 15px;position: relative;overflow: hidden;}
+.categories .cat:hover {background-color: #EEE;}
+.categories .cat:hover .hidden-buttons {right: 10px;}
+.categories .cat .hidden-buttons {transition: all .4s ease-in-out;position: absolute;top: 35%;right: -180px;}
+.categories .cat .hidden-buttons a {margin-right: 5px;}
+.categories .cat h3 {margin: 0;font-size: 22px;}
+.categories .cat:last-of-type ~ hr {display: none;}
+.categories .btn-primary {margin-bottom: 20px;}
+.categories .cat h4 {margin-left: 2px; color: #269abc;font-weight: bold;}
+.categories .full-view {display: none;}
+
+.categories .cat .visibility, .categories .cat .commenting, .categories .cat .advs
+{background-color:#7ed6df;color: #444;padding: 4px 6px;margin-right: 6px;border-radius: 6px;font-weight: bold;font-size: 14px;}
+.categories .cat .visibility:empty, .categories .cat .commenting:empty, .categories .cat .advs:empty
+{display: none;}
+
+/* Items Page */
+.icom {margin-left: -35px;margin-top: 50px;}
+.bootstrap-tagsinput {width: 100%;min-height: 46px;line-height: 35px;font-size: 18px;}
+.bootstrap-tagsinput input {width: 100%;}
+
